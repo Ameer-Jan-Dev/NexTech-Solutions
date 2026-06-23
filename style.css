@@ -75,7 +75,7 @@ nav > a:hover {
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
 
-@media (max-width: 440px) {
+@media (max-width: 540px) {
   header {
     height: auto;
     background-color: var(--white);
@@ -97,7 +97,7 @@ nav > a:hover {
     font-size: 30px;
     color: var(--primary-color);
     font-weight: bold;
-    margin-bottom: 25px;
+    margin-bottom: 8px;
   }
 
   nav > a {
@@ -117,6 +117,17 @@ nav > a:hover {
     border-radius: 10px;
     font-weight: 400;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  }
+}
+
+/* Next @media */
+@media (max-width: 380px) {
+  .home {
+    margin-bottom: 10px;
+  }
+
+  nav > a {
+    margin-left: 15px;
   }
 }
 /* Header Section End */
@@ -166,19 +177,20 @@ nav > a:hover {
 
 @media (max-width: 570px) {
   .hero-section {
-    padding: 0 5px;
+    padding: 0 0px;
   }
 
   .hero-section h1 {
-    font-size: 30px;
+    font-size: 38px;
     color: var(--white);
     margin-bottom: 6px;
+    line-height: 1.5;
   }
 
   .hero-section p {
     color: var(--bg-color);
-    font-size: 13px;
-    margin-bottom: 30px;
+    font-size: 16px;
+    margin-bottom: 35px;
   }
 
   .hero-section a {
@@ -189,7 +201,7 @@ nav > a:hover {
     color: var(--white);
     border: none;
     border-radius: 20px;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: bold;
     letter-spacing: 2px;
   }
@@ -239,19 +251,20 @@ nav > a:hover {
   .about-text h2 {
     color: var(--primary-color);
     margin-bottom: 10px;
-    font-size: 23px;
+    font-size: 30px;
   }
 
   .about-text p {
     color: var(--text-color);
+    font-size: 18px;
   }
   .about-img img {
     width: 100%;
-    height: auto;
+    height: 300px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
     border: none;
     border-radius: 10px;
-    margin-top: 20px;
+    margin-top: 0px;
   }
 }
 /* About Section End*/
@@ -336,7 +349,7 @@ nav > a:hover {
 
   .portfolio-section > h2 {
     color: var(--primary-color);
-    font-size: 35px;
+    font-size: 40px;
     text-align: center;
     margin-bottom: 60px;
   }
@@ -442,7 +455,7 @@ nav > a:hover {
   .contact-container p {
     color: var(--white);
     font-weight: 400;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
   }
 }
 /* Contact Section End */
@@ -455,7 +468,7 @@ nav > a:hover {
 
 .form-section h2 {
   color: var(--primary-color);
-  font-size: 36px;
+  font-size: 44px;
   font-weight: bold;
   padding: 100px 0 50px 0;
   text-align: center;
@@ -464,7 +477,7 @@ nav > a:hover {
 form {
   max-width: 600px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 0 30px;
 }
 
 form div {
@@ -515,5 +528,13 @@ footer {
   font-size: 1em;
   font-weight: 400;
   color: var(--white);
+}
+
+.footer-container em {
+  font-size: 20px;
+}
+
+.footer-container a {
+  color: var(--white-color);
 }
 /* Footer Section End*/
