@@ -190,7 +190,7 @@ input {
   text-decoration: underline;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .button-form p {
     margin-bottom: 20px;
   }
