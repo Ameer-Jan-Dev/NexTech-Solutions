@@ -189,3 +189,18 @@ input {
   color: #247fbc;
   text-decoration: underline;
 }
+
+@media (max-width: 500px) {
+  .button-form p {
+    margin-bottom: 20px;
+  }
+
+  .form-container h2 {
+    padding: 40px 0;
+    font-size: 35px;
+  }
+
+  .btn {
+    font-size: 17px;
+  }
+}
